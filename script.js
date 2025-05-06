@@ -88,20 +88,10 @@ function applyFilters() {
 }
 
 function updateDisplay() {
-  const hasAnyFilter = selectedClan || selectedRace || selectedClass || selectedSun !== null || selectedStar !== null || selectedType;
-  
-  if (!hasAnyFilter) {
-    renderCards([]); // не показываем карты
-    const title = document.querySelector('#card-view h2');
-    title.textContent = "Выберите фильтры для отображения карт";
-    return;
-  }
-
   const filteredCards = applyFilters();
   renderCards(filteredCards);
   updateAvailableFilters(filteredCards);
 }
-
 
 function renderCards(cards) {
   const cardsContainer = document.getElementById('cards');
@@ -258,29 +248,71 @@ const zoomPreview = document.createElement('img');
 zoomPreview.id = 'zoom-preview';
 document.body.appendChild(zoomPreview);
 
+// Создаём элемент увеличения
+const zoomPreview = document.createElement('img');
+zoomPreview.id = 'zoom-preview';
+document.body.appendChild(zoomPreview);
+
+let zoomTimeout;
+
 // Добавляем события на каждую карту после рендера
 function attachZoomEvents() {
   document.querySelectorAll('.card img').forEach(img => {
+    // Десктоп
     img.addEventListener('mousedown', (e) => {
-      zoomPreview.src = img.src;
-      zoomPreview.style.display = 'block';
-      updateZoomPosition(e);
+      zoomTimeout = setTimeout(() => {
+        zoomPreview.src = img.src;
+        zoomPreview.style.display = 'block';
+        updateZoomPosition(e);
+      }, 300);
     });
 
     img.addEventListener('mousemove', updateZoomPosition);
 
     img.addEventListener('mouseup', () => {
+      clearTimeout(zoomTimeout);
       zoomPreview.style.display = 'none';
     });
 
     img.addEventListener('mouseleave', () => {
+      clearTimeout(zoomTimeout);
+      zoomPreview.style.display = 'none';
+    });
+
+    // Мобильные устройства
+    img.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      zoomTimeout = setTimeout(() => {
+        zoomPreview.src = img.src;
+        zoomPreview.style.display = 'block';
+        updateZoomPosition(e.touches[0]);
+      }, 400);
+    });
+
+    img.addEventListener('touchmove', (e) => {
+      updateZoomPosition(e.touches[0]);
+    });
+
+    img.addEventListener('touchend', () => {
+      clearTimeout(zoomTimeout);
+      zoomPreview.style.display = 'none';
+    });
+
+    img.addEventListener('touchcancel', () => {
+      clearTimeout(zoomTimeout);
       zoomPreview.style.display = 'none';
     });
   });
 }
 
-// Обновляем позицию рядом с курсором
 function updateZoomPosition(e) {
-  zoomPreview.style.top = (e.pageY + 20) + 'px';
-  zoomPreview.style.left = (e.pageX + 20) + 'px';
+  const zoomWidth = 300;
+  const zoomHeight = 400;
+  const padding = 20;
+
+  const x = Math.min(e.pageX + padding, window.innerWidth - zoomWidth - padding);
+  const y = Math.min(e.pageY + padding, window.innerHeight - zoomHeight - padding);
+
+  zoomPreview.style.left = `${x}px`;
+  zoomPreview.style.top = `${y}px`;
 }
