@@ -88,10 +88,20 @@ function applyFilters() {
 }
 
 function updateDisplay() {
+  const hasAnyFilter = selectedClan || selectedRace || selectedClass || selectedSun !== null || selectedStar !== null || selectedType;
+  
+  if (!hasAnyFilter) {
+    renderCards([]); // не показываем карты
+    const title = document.querySelector('#card-view h2');
+    title.textContent = "Выберите фильтры для отображения карт";
+    return;
+  }
+
   const filteredCards = applyFilters();
   renderCards(filteredCards);
   updateAvailableFilters(filteredCards);
 }
+
 
 function renderCards(cards) {
   const cardsContainer = document.getElementById('cards');
