@@ -1,0 +1,4567 @@
+[
+  {
+    "clan": "Lux",
+    "name": "Azrael",
+    "attack": 3,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Lux",
+    "name": "Ariel",
+    "attack": 5,
+    "defense": 5,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Lux",
+    "name": "Cassiel",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Lux",
+    "name": "Guardian Angel",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Lux",
+    "name": "Israfil",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Inferis",
+    "name": "Imp",
+    "attack": 1,
+    "defense": 0,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Inferis",
+    "name": "Cruenta",
+    "attack": 5,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Inferis",
+    "name": "Divitibos",
+    "attack": 3,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Inferis",
+    "name": "Malakar",
+    "attack": 1,
+    "defense": 0,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Inferis",
+    "name": "obice",
+    "attack": 3,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "demon",
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Valpurgiev pogost",
+    "name": "Kletvich",
+    "attack": 3,
+    "defense": 4,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Valpurgiev pogost",
+    "name": "Pavel",
+    "attack": 1,
+    "defense": 0,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Valpurgiev pogost",
+    "name": "Vestich",
+    "attack": 6,
+    "defense": 5,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Valpurgiev pogost",
+    "name": "Raising the Dead",
+    "attack": null,
+    "defense": null,
+    "sun": 6,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Valpurgiev pogost",
+    "name": "Restless",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Latrones",
+    "name": "Skedlock",
+    "attack": 2,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Latrones",
+    "name": "Godfrey",
+    "attack": 3,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Latrones",
+    "name": "Robin",
+    "attack": 2,
+    "defense": 1,
+    "sun": 3,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Latrones",
+    "name": "Theft",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Latrones",
+    "name": "Khan",
+    "attack": 4,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ironcliff",
+    "name": "Valorlight",
+    "attack": 1,
+    "defense": 2,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ironcliff",
+    "name": "Shieldwall",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Ironcliff",
+    "name": "Ironclaw",
+    "attack": 4,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ironcliff",
+    "name": "Flamel",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ironcliff",
+    "name": "Sir Daxworth",
+    "attack": 2,
+    "defense": 7,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Sakura",
+    "name": "Katana",
+    "attack": 2,
+    "defense": 0,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Sakura",
+    "name": "Norito",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Sakura",
+    "name": "Aiko",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Sakura",
+    "name": "Takeshi",
+    "attack": 1,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Sakura",
+    "name": "Taichi",
+    "attack": 5,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Kaminari",
+    "name": "Kumadai",
+    "attack": 0,
+    "defense": 3,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Kaminari",
+    "name": "Kanako",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Kaminari",
+    "name": "Sakeyama",
+    "attack": 5,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Kaminari",
+    "name": "Yamato",
+    "attack": 4,
+    "defense": 6,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Kaminari",
+    "name": "Silver",
+    "attack": 1,
+    "defense": 0,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Zalama",
+    "name": "N`kitenge",
+    "attack": 1,
+    "defense": 0,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Zalama",
+    "name": "Kuvuta",
+    "attack": 1,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Zalama",
+    "name": "Mbeya Amboa",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Zalama",
+    "name": "Nuru",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Zalama",
+    "name": "Shugaba",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 2,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Clavus in Pede",
+    "name": "Malachius",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Clavus in Pede",
+    "name": "Arianus",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Clavus in Pede",
+    "name": "Magnus",
+    "attack": 4,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Clavus in Pede",
+    "name": "Malificentium",
+    "attack": 1,
+    "defense": 1,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Clavus in Pede",
+    "name": "Seraphiel",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Varful Strigoi",
+    "name": "Strachowsky",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Varful Strigoi",
+    "name": "Catracula",
+    "attack": 4,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Varful Strigoi",
+    "name": "graf Krew",
+    "attack": 6,
+    "defense": 4,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Varful Strigoi",
+    "name": "Morowiecka",
+    "attack": 1,
+    "defense": 4,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Varful Strigoi",
+    "name": "Vechera",
+    "attack": null,
+    "defense": null,
+    "sun": 4,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Kivuli",
+    "name": "Chafaya",
+    "attack": 4,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Kivuli",
+    "name": "Makanga",
+    "attack": 5,
+    "defense": 7,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Kivuli",
+    "name": "Jabari",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Kivuli",
+    "name": "Thabo",
+    "attack": 1,
+    "defense": 1,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Kivuli",
+    "name": "Gwama",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cronan Fala",
+    "name": "Carnelian",
+    "attack": 5,
+    "defense": 7,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cronan Fala",
+    "name": "Vermilion",
+    "attack": 2,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cronan Fala",
+    "name": "Scarlet",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cronan Fala",
+    "name": "Noxious",
+    "attack": 3,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cronan Fala",
+    "name": "Blood Ritual",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Dimaat Al-Rukban",
+    "name": "Muad'dib",
+    "attack": 5,
+    "defense": 3,
+    "sun": 5,
+    "star": 3,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dimaat Al-Rukban",
+    "name": "Chuka",
+    "attack": 3,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "nyths"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dimaat Al-Rukban",
+    "name": "Khasar",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dimaat Al-Rukban",
+    "name": "Faruq",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dimaat Al-Rukban",
+    "name": "Slavery",
+    "attack": null,
+    "defense": null,
+    "sun": 5,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Poiana",
+    "name": "Arwen",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Poiana",
+    "name": "Glorendil",
+    "attack": 4,
+    "defense": 7,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Poiana",
+    "name": "Lorenzo",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Poiana",
+    "name": "Akila",
+    "attack": 3,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Poiana",
+    "name": "Rainbow Inspiration",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Arcanari",
+    "name": "Grod",
+    "attack": 4,
+    "defense": 5,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Arcanari",
+    "name": "Merwyn",
+    "attack": 2,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Arcanari",
+    "name": "Antimagic",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Arcanari",
+    "name": "Fireball",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Arcanari",
+    "name": "Azarion",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Wazimu",
+    "name": "Kwame",
+    "attack": 1,
+    "defense": 0,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Wazimu",
+    "name": "Bantu",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Wazimu",
+    "name": "Sundara",
+    "attack": 4,
+    "defense": 6,
+    "sun": 5,
+    "star": 3,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Wazimu",
+    "name": "Jinbar",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Wazimu",
+    "name": "Mavumba",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Klippeblod",
+    "name": "Dalvin",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Klippeblod",
+    "name": "Nyoka",
+    "attack": 1,
+    "defense": 1,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Klippeblod",
+    "name": "Aisha",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Klippeblod",
+    "name": "Phunga",
+    "attack": 2,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Klippeblod",
+    "name": "Torin",
+    "attack": 1,
+    "defense": 4,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Shaka Zhimbu",
+    "name": "Zangar",
+    "attack": 4,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Shaka Zhimbu",
+    "name": "Zafar",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Shaka Zhimbu",
+    "name": "Goran",
+    "attack": 3,
+    "defense": 4,
+    "sun": 5,
+    "star": 3,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Shaka Zhimbu",
+    "name": "Makhuba",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Shaka Zhimbu",
+    "name": "Primal Rage",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Mangrove",
+    "name": "Slade",
+    "attack": 4,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mangrove",
+    "name": "Morgan",
+    "attack": 3,
+    "defense": 0,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mangrove",
+    "name": "Bartholomew",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mangrove",
+    "name": "The Reckless Wave",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Mangrove",
+    "name": "Mare",
+    "attack": 4,
+    "defense": 4,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "dragon"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Aeryndor",
+    "name": "Elvandar",
+    "attack": 3,
+    "defense": 5,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Aeryndor",
+    "name": "Elestir",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Aeryndor",
+    "name": "Felarion",
+    "attack": 8,
+    "defense": 9,
+    "sun": 10,
+    "star": 5,
+    "race": [
+      "dragon"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Aeryndor",
+    "name": "Breath of Emerald Dragon",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Aeryndor",
+    "name": "Dragon Egg",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Zaldrathar",
+    "name": "Sauranth",
+    "attack": 1,
+    "defense": 4,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Zaldrathar",
+    "name": "Malthira",
+    "attack": 8,
+    "defense": 5,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Zaldrathar",
+    "name": "Myr'Gath",
+    "attack": 7,
+    "defense": 7,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Zaldrathar",
+    "name": "Lilith",
+    "attack": 6,
+    "defense": 4,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Zaldrathar",
+    "name": "Black Banner",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Twilit",
+    "name": "Radgar",
+    "attack": 5,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Twilit",
+    "name": "Mirgas",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Twilit",
+    "name": "Viora",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Twilit",
+    "name": "Chester",
+    "attack": 1,
+    "defense": 4,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Twilit",
+    "name": "Tree of Life",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Bliscar",
+    "name": "Icecled",
+    "attack": 8,
+    "defense": 9,
+    "sun": 10,
+    "star": 5,
+    "race": [
+      "dragon"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Bliscar",
+    "name": "Khyortr",
+    "attack": 5,
+    "defense": 7,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Bliscar",
+    "name": "Bialozor",
+    "attack": 4,
+    "defense": 5,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Bliscar",
+    "name": "Cold Breath",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Bliscar",
+    "name": "Mythralis",
+    "attack": 4,
+    "defense": 1,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Consortium",
+    "name": "Faraday",
+    "attack": 3,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Consortium",
+    "name": "Einst",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Consortium",
+    "name": "Kaspar",
+    "attack": 1,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Consortium",
+    "name": "Eirik",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Consortium",
+    "name": "Elixir",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Soulrends",
+    "name": "Valak",
+    "attack": 1,
+    "defense": 0,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Soulrends",
+    "name": "Cornufex",
+    "attack": 3,
+    "defense": 5,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Soulrends",
+    "name": "Cotaro",
+    "attack": 8,
+    "defense": 4,
+    "sun": 7,
+    "star": 4,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Soulrends",
+    "name": "Noxal",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Soulrends",
+    "name": "Gargrim",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Uzasna Laboratorija",
+    "name": "Wladyslaw Zguba",
+    "attack": 4,
+    "defense": 4,
+    "sun": 5,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Uzasna Laboratorija",
+    "name": "Potwora",
+    "attack": 7,
+    "defense": 5,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Uzasna Laboratorija",
+    "name": "Lukash",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Uzasna Laboratorija",
+    "name": "Terrible Experiment",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Uzasna Laboratorija",
+    "name": "Lethal Doctor's Prescription",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Marketville",
+    "name": "Burgund",
+    "attack": 4,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Marketville",
+    "name": "Aksel",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Marketville",
+    "name": "Rodwin",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Marketville",
+    "name": "Ferran",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Marketville",
+    "name": "Greed is Good",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Shikabane",
+    "name": "Hikosi",
+    "attack": 2,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Shikabane",
+    "name": "Kenshin",
+    "attack": 6,
+    "defense": 0,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Shikabane",
+    "name": "Kaladin",
+    "attack": 3,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Shikabane",
+    "name": "Kage no Ichigeki",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Shikabane",
+    "name": "Kageyumi",
+    "attack": 2,
+    "defense": 0,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Nigrum Mortem",
+    "name": "Mokrad",
+    "attack": 10,
+    "defense": 10,
+    "sun": 10,
+    "star": 5,
+    "race": [
+      "dragon"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Nigrum Mortem",
+    "name": "Krzysztof Mrochny",
+    "attack": 8,
+    "defense": 4,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Nigrum Mortem",
+    "name": "Zla",
+    "attack": 6,
+    "defense": 3,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Nigrum Mortem",
+    "name": "Zaborona",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Nigrum Mortem",
+    "name": "Fire breath of black dragon",
+    "attack": null,
+    "defense": null,
+    "sun": 5,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Celestials",
+    "name": "Vixenite",
+    "attack": 5,
+    "defense": 8,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Celestials",
+    "name": "Yang Feng",
+    "attack": 4,
+    "defense": 7,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "dragon"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Celestials",
+    "name": "Abbat Kalne",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Celestials",
+    "name": "Holy Shield",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Celestials",
+    "name": "Divine Retribution",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Pilgrims",
+    "name": "Bram",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Pilgrims",
+    "name": "Reynard",
+    "attack": 1,
+    "defense": 1,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Pilgrims",
+    "name": "Caladric",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Pilgrims",
+    "name": "Narisandor",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Pilgrims",
+    "name": "Discovery of New Worlds",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Glunte",
+    "name": "Gideon",
+    "attack": 2,
+    "defense": 5,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Glunte",
+    "name": "Hector",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Glunte",
+    "name": "Brutus",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Glunte",
+    "name": "Ducis Fatum",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Glunte",
+    "name": "Suppressio",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Nesse Erume",
+    "name": "Leviathan",
+    "attack": 8,
+    "defense": 4,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Nesse Erume",
+    "name": "Hydrax",
+    "attack": 7,
+    "defense": 8,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Nesse Erume",
+    "name": "Thalasmorg",
+    "attack": 7,
+    "defense": 4,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Nesse Erume",
+    "name": "Sinimed",
+    "attack": 3,
+    "defense": 4,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Nesse Erume",
+    "name": "Whirpool",
+    "attack": null,
+    "defense": null,
+    "sun": 5,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Arlekinos",
+    "name": "For an Encore",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Arlekinos",
+    "name": "Marius",
+    "attack": 5,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Arlekinos",
+    "name": "Iolanta",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Arlekinos",
+    "name": "Saverio",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Arlekinos",
+    "name": "Xavier",
+    "attack": 4,
+    "defense": 3,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Intrastle",
+    "name": "Sebastiano",
+    "attack": 3,
+    "defense": 0,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Intrastle",
+    "name": "Maurice",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Intrastle",
+    "name": "Gelu Militem",
+    "attack": 2,
+    "defense": 5,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "antherian"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Intrastle",
+    "name": "Klavdii",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Intrastle",
+    "name": "Games of Thrones",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Dexanis",
+    "name": "Mechanor",
+    "attack": 0,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dexanis",
+    "name": "Archibald",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dexanis",
+    "name": "Crocon",
+    "attack": 8,
+    "defense": 5,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dexanis",
+    "name": "Separator",
+    "attack": 1,
+    "defense": 2,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Dexanis",
+    "name": "Return Salvo",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Cohraconis",
+    "name": "Technowing",
+    "attack": 10,
+    "defense": 6,
+    "sun": 9,
+    "star": 4,
+    "race": [
+      "dragon"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cohraconis",
+    "name": "Blai",
+    "attack": 3,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cohraconis",
+    "name": "Tink",
+    "attack": 1,
+    "defense": 1,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cohraconis",
+    "name": "Dagmar",
+    "attack": 2,
+    "defense": 5,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Cohraconis",
+    "name": "Death Machine Drawings",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Mranias",
+    "name": "Uol",
+    "attack": 3,
+    "defense": 5,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mranias",
+    "name": "Sulis",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mranias",
+    "name": "Antrim",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mranias",
+    "name": "Nauts",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mranias",
+    "name": "Wagon with Minerals",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Dispentis",
+    "name": "Dilnaz",
+    "attack": 4,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dispentis",
+    "name": "Galador",
+    "attack": 8,
+    "defense": 4,
+    "sun": 9,
+    "star": 4,
+    "race": [
+      "demon",
+      "dragon"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dispentis",
+    "name": "Ahiad",
+    "attack": 1,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dispentis",
+    "name": "Agaan",
+    "attack": 0,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Dispentis",
+    "name": "Abyssus Infernum",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Altvengers",
+    "name": "Niculescu",
+    "attack": 4,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Altvengers",
+    "name": "Kowalski",
+    "attack": 2,
+    "defense": 5,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Altvengers",
+    "name": "Radu",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Altvengers",
+    "name": "Ardelean",
+    "attack": 4,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Altvengers",
+    "name": "Cleft Palate",
+    "attack": null,
+    "defense": null,
+    "sun": 4,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Akurydan",
+    "name": "Hoshiro",
+    "attack": 4,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Akurydan",
+    "name": "Hikari",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Akurydan",
+    "name": "Asagiri",
+    "attack": 3,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Akurydan",
+    "name": "Akuma",
+    "attack": 5,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Akurydan",
+    "name": "Hanzo",
+    "attack": 6,
+    "defense": 4,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mahototachi",
+    "name": "Kurogawa",
+    "attack": 6,
+    "defense": 4,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mahototachi",
+    "name": "Raiko",
+    "attack": 0,
+    "defense": 7,
+    "sun": 7,
+    "star": 4,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mahototachi",
+    "name": "Min-soo",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mahototachi",
+    "name": "Joon-su",
+    "attack": 6,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Mahototachi",
+    "name": "Shinigami",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Defores-Brarum",
+    "name": "Darius",
+    "attack": 5,
+    "defense": 11,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Defores-Brarum",
+    "name": "Pax",
+    "attack": 1,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Defores-Brarum",
+    "name": "Elysian",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "demon"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Defores-Brarum",
+    "name": "Sargathor",
+    "attack": 5,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "demon",
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Defores-Brarum",
+    "name": "Windshear Fury",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Amuntaar",
+    "name": "Bastet",
+    "attack": 2,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Amuntaar",
+    "name": "Osiris",
+    "attack": 6,
+    "defense": 8,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Amuntaar",
+    "name": "Anubis",
+    "attack": 5,
+    "defense": 8,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Amuntaar",
+    "name": "Ramses",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Amuntaar",
+    "name": "Sphinx",
+    "attack": 4,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Groslap",
+    "name": "Uwe",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Groslap",
+    "name": "Otto",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Groslap",
+    "name": "Gunter",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Groslap",
+    "name": "Explosion",
+    "attack": null,
+    "defense": null,
+    "sun": 7,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Groslap",
+    "name": "Drillguard",
+    "attack": 1,
+    "defense": 2,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Lesatos",
+    "name": "Fernando",
+    "attack": 3,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Lesatos",
+    "name": "Ignacio",
+    "attack": 4,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Lesatos",
+    "name": "Estevan",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Lesatos",
+    "name": "Tadeo",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 2,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Lesatos",
+    "name": "Furia del Mar",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Eldnir",
+    "name": "Kai",
+    "attack": 2,
+    "defense": 4,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Eldnir",
+    "name": "Gerda",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Eldnir",
+    "name": "Tormod",
+    "attack": 2,
+    "defense": 4,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Eldnir",
+    "name": "Sven",
+    "attack": 5,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Eldnir",
+    "name": "Sigurd",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Hatshedet",
+    "name": "Aten",
+    "attack": 3,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Hatshedet",
+    "name": "Thoth",
+    "attack": 6,
+    "defense": 6,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Hatshedet",
+    "name": "Setekh",
+    "attack": 8,
+    "defense": 2,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Hatshedet",
+    "name": "Maat",
+    "attack": 4,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "amphibis"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Hatshedet",
+    "name": "Sobekhet",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Vanasky",
+    "name": "Rackham",
+    "attack": 4,
+    "defense": 3,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Vanasky",
+    "name": "Janusz",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Vanasky",
+    "name": "Nowak",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Vanasky",
+    "name": "Vanasky",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Vanasky",
+    "name": "Feathered Fury",
+    "attack": null,
+    "defense": null,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Numentra",
+    "name": "Ra",
+    "attack": 8,
+    "defense": 8,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Numentra",
+    "name": "Djed",
+    "attack": 4,
+    "defense": 6,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Numentra",
+    "name": "Khonsu",
+    "attack": 5,
+    "defense": 6,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Numentra",
+    "name": "Djehuty",
+    "attack": 6,
+    "defense": 7,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "dragon"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Numentra",
+    "name": "Isis' Rod",
+    "attack": 2,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Druviorix",
+    "name": "Nimrath",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Druviorix",
+    "name": "Severius",
+    "attack": 1,
+    "defense": 4,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Druviorix",
+    "name": "Tybalt",
+    "attack": 4,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Druviorix",
+    "name": "Elun'ara",
+    "attack": 4,
+    "defense": 6,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "nyths",
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Druviorix",
+    "name": "Elun'ara's Watch",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Ngarimnir",
+    "name": "Skuld",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ngarimnir",
+    "name": "Hildegard",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ngarimnir",
+    "name": "Draugheim",
+    "attack": 6,
+    "defense": 4,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ngarimnir",
+    "name": "Yggdrasill",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Ngarimnir",
+    "name": "Skadi",
+    "attack": 4,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Elrindur",
+    "name": "Thalindar",
+    "attack": 1,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Elrindur",
+    "name": "Mythandor",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Elrindur",
+    "name": "Aeltharion",
+    "attack": 8,
+    "defense": 10,
+    "sun": 9,
+    "star": 5,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Elrindur",
+    "name": "Glimmerling",
+    "attack": 1,
+    "defense": 1,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Elrindur",
+    "name": "Caelum",
+    "attack": 4,
+    "defense": 4,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Xutastium",
+    "name": "Ruinam",
+    "attack": 7,
+    "defense": 3,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "avianites",
+      "nyths"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Xutastium",
+    "name": "Bellator",
+    "attack": 4,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites",
+      "nyths"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Xutastium",
+    "name": "Ferox",
+    "attack": 8,
+    "defense": 4,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "avianites",
+      "nyths"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Xutastium",
+    "name": "Mrok",
+    "attack": 3,
+    "defense": 6,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Xutastium",
+    "name": "Mrok's Genocide",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Ukuromari",
+    "name": "Jinrai",
+    "attack": 3,
+    "defense": 8,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ukuromari",
+    "name": "Tadashi",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ukuromari",
+    "name": "Kenjiro",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ukuromari",
+    "name": "Yoshio",
+    "attack": 4,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ukuromari",
+    "name": "Ronin's Strike",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Sylvanor",
+    "name": "Bryndelar",
+    "attack": 3,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Sylvanor",
+    "name": "Galdor",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "avianites"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Sylvanor",
+    "name": "Aldruin",
+    "attack": 3,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Sylvanor",
+    "name": "Talrandor",
+    "attack": 5,
+    "defense": 6,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Sylvanor",
+    "name": "Ancestral Roots",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Gospodari Smerti",
+    "name": "Xander",
+    "attack": 3,
+    "defense": 6,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Gospodari Smerti",
+    "name": "Ranimira",
+    "attack": 1,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Gospodari Smerti",
+    "name": "Milica",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Gospodari Smerti",
+    "name": "Odkaz Hrobu",
+    "attack": 2,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Gospodari Smerti",
+    "name": "Tajomstvá Smrti",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Angemanti",
+    "name": "Tristian",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Angemanti",
+    "name": "Dante",
+    "attack": 9,
+    "defense": 4,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Angemanti",
+    "name": "Lucius",
+    "attack": 2,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "warrior"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Angemanti",
+    "name": "Matteo",
+    "attack": 4,
+    "defense": 4,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Angemanti",
+    "name": "Antiqua Custodia",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Ikhet",
+    "name": "Amun's Curse",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+  {
+    "clan": "Ikhet",
+    "name": "Seth",
+    "attack": 10,
+    "defense": 3,
+    "sun": 8,
+    "star": 4,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ikhet",
+    "name": "Amun",
+    "attack": 8,
+    "defense": 2,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ikhet",
+    "name": "Imhotep",
+    "attack": 2,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Ikhet",
+    "name": "Seth's Shadow",
+    "attack": null,
+    "defense": null,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Levictires",
+    "name": "Cassius",
+    "attack": 4,
+    "defense": 4,
+    "sun": 5,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Levictires",
+    "name": "Tullius",
+    "attack": 8,
+    "defense": 5,
+    "sun": 7,
+    "star": 4,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Levictires",
+    "name": "Manticore",
+    "attack": 4,
+    "defense": 5,
+    "sun": 5,
+    "star": 3,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Levictires",
+    "name": "Licinius",
+    "attack": 3,
+    "defense": 4,
+    "sun": 5,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "scholar"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Levictires",
+    "name": "Pestilentum",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Morwandil",
+    "name": "Xylar",
+    "attack": 5,
+    "defense": 3,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Morwandil",
+    "name": "Vexilion",
+    "attack": 3,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Morwandil",
+    "name": "Oxalor",
+    "attack": 1,
+    "defense": 9,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "berserk"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Morwandil",
+    "name": "Varalis",
+    "attack": 4,
+    "defense": 1,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Morwandil",
+    "name": "Aldrathor",
+    "attack": 4,
+    "defense": 5,
+    "sun": 5,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "assassin"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Agnivara",
+    "name": "Saru",
+    "attack": 4,
+    "defense": 12,
+    "sun": 9,
+    "star": 4,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Agnivara",
+    "name": "Ogneyastr",
+    "attack": 2,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "peasant"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Agnivara",
+    "name": "Eshter",
+    "attack": 6,
+    "defense": 5,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "hunter"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Agnivara",
+    "name": "Araneth",
+    "attack": 1,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "undead"
+    ],
+    "class": [
+      "priest"
+    ],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Agnivara",
+    "name": "Aisy",
+    "attack": 2,
+    "defense": 3,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Gloomwood",
+    "name": "Celestria",
+    "attack": 4,
+    "defense": 7,
+    "sun": 7,
+    "star": 3,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Gloomwood",
+    "name": "Ursula",
+    "attack": 2,
+    "defense": 6,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Gloomwood",
+    "name": "Ralithar",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Gloomwood",
+    "name": "Flutterfox",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Gloomwood",
+    "name": "Twilight Mashroom",
+    "attack": 2,
+    "defense": 2,
+    "sun": 2,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+  {
+    "clan": "Panesust",
+    "name": "Pallas",
+    "attack": 3,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Panesust",
+    "name": "Argus",
+    "attack": 3,
+    "defense": 7,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Panesust",
+    "name": "Mariposa",
+    "attack": 1,
+    "defense": 0,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Panesust",
+    "name": "Nostos",
+    "attack": 1,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+    "race": [
+      "undead"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Panesust",
+    "name": "Nox",
+    "attack": 4,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Fyneidos",
+    "name": "Traksel",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Fyneidos",
+    "name": "Varnok",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Fyneidos",
+    "name": "Orrenak",
+    "attack": 2,
+    "defense": 1,
+    "sun": 3,
+    "star": 2,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Fyneidos",
+    "name": "Talysea",
+    "attack": 1,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "beast"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Fyneidos",
+    "name": "Talysea’s Whirl of Tides",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Xalzuth",
+    "name": "Az’Thaloth",
+    "attack": 4,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Xalzuth",
+    "name": "Q'Rash’Zal",
+    "attack": null,
+    "defense": null,
+    "sun": 3,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+  {
+    "clan": "Xalzuth",
+    "name": "Kragg’Nothur",
+    "attack": 3,
+    "defense": 4,
+    "sun": 6,
+    "star": 3,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Xalzuth",
+    "name": "Thal’Zoggur",
+    "attack": 3,
+    "defense": 7,
+    "sun": 9,
+    "star": 4,
+    "race": [
+      "nyths"
+    ],
+    "class": [],
+    "cardType": "creature"
+  },
+  {
+    "clan": "Xalzuth",
+    "name": "Elym’Rae",
+    "attack": null,
+    "defense": null,
+    "sun": 0,
+    "star": 0,
+    "race": [],
+    "class": [],
+    "cardType": "instant"
+  }
+]

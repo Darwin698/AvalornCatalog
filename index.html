@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Avalorn Card Catalog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <div id="top-filters">
+        <div id="star-filter">
+          <h3>Stars</h3>
+          <div id="star-buttons"></div>
+        </div>
+        <div id="sun-filter">
+          <h3>Sun</h3>
+          <div id="sun-buttons"></div>
+        </div>
+        <div id="type-filter">
+          <h3>Card Type</h3>
+          <div id="type-buttons"></div>
+        </div>
+      </div>
+  <div id="container">
+    <!-- Левая панель — кланы -->
+    <aside id="sidebar-left"></aside>
+
+    <!-- Центральная часть — карты -->
+    <main id="card-view">
+      <h2>Выберите фильтр</h2>
+      <div id="cards"></div>
+    </main>
+
+    <!-- Правая панель — фильтры по расам и классам -->
+    <aside id="sidebar-right">
+      <div class="filter-section">
+        <h3>Race</h3>
+        <div id="race-filter"></div>
+      </div>
+      <div class="filter-section">
+        <h3>Class</h3>
+        <div id="class-filter"></div>
+      </div>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
