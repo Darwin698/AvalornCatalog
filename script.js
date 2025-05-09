@@ -26,24 +26,24 @@ const PATH_RACES = "images/Race/";
 const PATH_CLASSES = "images/ClassIcon/";
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('data/avalorn_cards.json')
-      .then(res => res.json())
-      .then(data => {
-        allCards = data;
-  
-        // Проверка структуры данных
-        allCards.forEach(card => {
-          if (!Array.isArray(card.cardType)) {
-            console.warn(`Card "${card.name}" is missing 'type' or it's not an array`, card);
-            card.type = []; // подстраховка
-          }
-        });
-  
-        renderResetButton();
-        renderAllFilters();
-        updateDisplay();
+  fetch('data/avalorn_cards.json')
+    .then(res => res.json())
+    .then(data => {
+      allCards = data;
+
+      // Проверка структуры данных
+      allCards.forEach(card => {
+        if (!Array.isArray(card.cardType)) {
+          console.warn(`Card "${card.name}" is missing 'cardType' or it's not an array`, card);
+          card.cardType = []; // подстраховка
+        }
       });
-  });
+
+      renderResetButton();
+      renderAllFilters();
+      updateDisplay();
+    });
+});
 
 function renderResetButton() {
   const resetContainer = document.createElement('div');
@@ -82,12 +82,21 @@ function applyFilters() {
     if (selectedClass && !card.class.includes(selectedClass)) return false;
     if (selectedSun !== null && card.sun !== selectedSun) return false;
     if (selectedStar !== null && card.star !== selectedStar) return false;
-    if (selectedType && (!card.cardType || !card.cardType.includes(selectedType))) return false; // ← Исправление здесь
+    if (selectedType && (!card.cardType || !card.cardType.includes(selectedType))) return false;
     return true;
   });
 }
 
 function updateDisplay() {
+  const hasAnyFilter = selectedClan || selectedRace || selectedClass || selectedSun !== null || selectedStar !== null || selectedType;
+
+  if (!hasAnyFilter) {
+    renderCards([]); // не показываем карты
+    const title = document.querySelector('#card-view h2');
+    title.textContent = "Выберите фильтры для отображения карт";
+    return;
+  }
+
   const filteredCards = applyFilters();
   renderCards(filteredCards);
   updateAvailableFilters(filteredCards);
@@ -103,12 +112,12 @@ function renderCards(cards) {
     const div = document.createElement('div');
     div.className = 'card';
     div.innerHTML = `
-      <img src="${PATH_CLANS}${encodeURIComponent(card.name)}.jpg" alt="${card.name}" />
-      <div>${card.name}</div>
-    `;
+    <img src="${PATH_CLANS}${encodeURIComponent(card.name)}.jpg" alt="${card.name}" />
+    <div>${card.name}</div>
+  `;
     cardsContainer.appendChild(div);
   });
-  attachZoomEvents(); // 👈 добавь это
+  attachZoomEvents();
 }
 
 function updateAvailableFilters(filteredCards) {
@@ -117,7 +126,7 @@ function updateAvailableFilters(filteredCards) {
   const classes = new Set(filteredCards.flatMap(c => c.class));
   const suns = new Set(filteredCards.map(c => c.sun));
   const stars = new Set(filteredCards.map(c => c.star));
-  const types = new Set(filteredCards.flatMap(c => c.type));
+  const types = new Set(filteredCards.flatMap(c => c.cardType));
 
   document.querySelectorAll('[data-filter-type]').forEach(el => {
     const type = el.dataset.filterType;
@@ -208,47 +217,23 @@ function renderSunButtons() {
 }
 
 function renderStarButtons() {
-    const container = document.getElementById("star-buttons");
-    container.innerHTML = "";
-    for (let i = 0; i <= 5; i++) {
-      const btn = document.createElement("button");
-      btn.textContent = i;
-      btn.dataset.filterType = "star";
-      btn.dataset.value = i;
-      btn.classList.toggle("selected", selectedStar === i);
-      btn.onclick = () => {
-        selectedStar = selectedStar === i ? null : i;
-        renderStarButtons();
-        updateDisplay();
-      };
-      container.appendChild(btn);
-    }
-  }
-
-function renderTypeButtons() {
-    const container = document.getElementById("type-buttons");
-    container.innerHTML = "";
-  
-    TYPES.forEach(t => {
-      const btn = document.createElement("button");
-      btn.textContent = t.charAt(0).toUpperCase() + t.slice(1);
-      btn.dataset.filterType = "type";
-      btn.dataset.value = t;
-      btn.classList.toggle("selected", selectedType === t);
-      btn.onclick = () => {
-        selectedType = selectedType === t ? null : t;
-        renderTypeButtons();
-        updateDisplay();
-      };
-      container.appendChild(btn);
-    });
-  }
-  // Создаём элемент увеличения
-const zoomPreview = document.createElement('img');
-zoomPreview.id = 'zoom-preview';
-document.body.appendChild(zoomPreview);
-
-// Создаём элемент увеличения
+  const container = document.getElementById("star-buttons");
+  container.innerHTML = "";
+  for (let i = 0; i <= 5; i++) {
+    const btn = document.createElement("button");
+    btn.textContent = i;
+    btn.dataset.filterType = "star";
+    btn.dataset.value = i;
+    btn.classList.toggle("selected", selectedStar === i);
+    btn.onclick = () => {
+      selectedStar = selectedStar === i ? null : i;
+      renderStarButtons();
+      updateDisplay();
+    };
+    container.appendChild(btn);
+   }
+   }
+ // Создаём элемент увеличения
 const zoomPreview = document.createElement('img');
 zoomPreview.id = 'zoom-preview';
 document.body.appendChild(zoomPreview);
@@ -316,3 +301,4 @@ function updateZoomPosition(e) {
   zoomPreview.style.left = `${x}px`;
   zoomPreview.style.top = `${y}px`;
 }
+    

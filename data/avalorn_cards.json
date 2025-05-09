@@ -440,7 +440,7 @@
     "name": "Kanako",
     "attack": 0,
     "defense": 1,
-    "sun": 1,
+    "sun": 0,
     "star": 0,
     "race": [
       "antherian"
