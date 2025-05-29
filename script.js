@@ -10,12 +10,12 @@ let selectedType = null;
 
 const RACES = [
   "demon", "antherian", "amphibis", "avianites", "dragon",
-  "undead", "nyths", "beast", "mech", "ocean", "pirats"
+  "undead", "nyths", "beast", "mech", "ocean"
 ];
 
 const CLASSES = [
   "warrior", "hunter", "peasant", "mage", "scholar",
-  "berserk", "priest", "assassin"
+  "berserk", "priest", "assassin", "pirate"
 ];
 
 const TYPES = ["creature", "spell", "instant", "attachment"];

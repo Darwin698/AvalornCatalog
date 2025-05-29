@@ -1277,7 +1277,7 @@
       "antherian"
     ],
     "class": [
-      "warrior"
+      "warrior", "pirate"
     ],
     "cardType": "creature"
   },
@@ -1292,7 +1292,7 @@
       "avianites"
     ],
     "class": [
-      "assassin"
+      "assassin","pirate"
     ],
     "cardType": "creature"
   },
@@ -1307,7 +1307,7 @@
       "antherian"
     ],
     "class": [
-      "hunter"
+      "hunter", "pirate"
     ],
     "cardType": "creature"
   },
@@ -1330,7 +1330,7 @@
     "sun": 5,
     "star": 2,
     "race": [
-      "dragon"
+      "dragon", "ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -2224,7 +2224,7 @@
     "sun": 7,
     "star": 3,
     "race": [
-      "nyths"
+      "nyths", "ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -2237,7 +2237,7 @@
     "sun": 8,
     "star": 4,
     "race": [
-      "nyths"
+      "nyths", "ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -2250,7 +2250,7 @@
     "sun": 8,
     "star": 4,
     "race": [
-      "amphibis"
+      "amphibis", "ocean"
     ],
     "class": [
       "berserk"
@@ -2265,7 +2265,7 @@
     "sun": 5,
     "star": 2,
     "race": [
-      "beast"
+      "beast", "ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -2461,7 +2461,7 @@
     "sun": 8,
     "star": 4,
     "race": [
-      "nyths"
+      "nyths", "mech"
     ],
     "class": [],
     "cardType": "creature"
@@ -2496,7 +2496,7 @@
     "sun": 9,
     "star": 4,
     "race": [
-      "dragon"
+      "dragon", "mech"
     ],
     "class": [],
     "cardType": "creature"
@@ -2709,7 +2709,7 @@
       "demon"
     ],
     "class": [
-      "mage"
+      "mage","pirate"
     ],
     "cardType": "creature"
   },
@@ -2724,7 +2724,7 @@
       "demon"
     ],
     "class": [
-      "hunter"
+      "hunter","pirate"
     ],
     "cardType": "creature"
   },
@@ -2739,7 +2739,7 @@
       "demon"
     ],
     "class": [
-      "hunter"
+      "hunter","pirate"
     ],
     "cardType": "creature"
   },
@@ -2754,7 +2754,7 @@
       "demon"
     ],
     "class": [
-      "warrior"
+      "warrior","pirate"
     ],
     "cardType": "creature"
   },
@@ -3136,7 +3136,7 @@
       "amphibis"
     ],
     "class": [
-      "berserk"
+      "berserk","pirate"
     ],
     "cardType": "creature"
   },
@@ -3151,7 +3151,7 @@
       "amphibis"
     ],
     "class": [
-      "assassin"
+      "assassin","pirate"
     ],
     "cardType": "creature"
   },
@@ -3166,7 +3166,7 @@
       "amphibis"
     ],
     "class": [
-      "priest"
+      "priest","pirate"
     ],
     "cardType": "creature"
   },
@@ -3181,7 +3181,7 @@
       "amphibis"
     ],
     "class": [
-      "scholar"
+      "scholar","pirate"
     ],
     "cardType": "creature"
   },
@@ -3349,7 +3349,7 @@
       "avianites"
     ],
     "class": [
-      "berserk"
+      "berserk","pirate"
     ],
     "cardType": "creature"
   },
@@ -3364,7 +3364,7 @@
       "avianites"
     ],
     "class": [
-      "priest"
+      "priest","pirate"
     ],
     "cardType": "creature"
   },
@@ -3379,7 +3379,7 @@
       "avianites"
     ],
     "class": [
-      "hunter"
+      "hunter","pirate"
     ],
     "cardType": "creature"
   },
@@ -4448,7 +4448,7 @@
     "sun": 1,
     "star": 1,
     "race": [
-      "beast"
+      "beast","ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -4461,7 +4461,7 @@
     "sun": 2,
     "star": 1,
     "race": [
-      "beast"
+      "beast","ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -4474,7 +4474,7 @@
     "sun": 3,
     "star": 2,
     "race": [
-      "beast"
+      "beast","ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -4487,7 +4487,7 @@
     "sun": 4,
     "star": 2,
     "race": [
-      "beast"
+      "beast","ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -4511,7 +4511,7 @@
     "sun": 4,
     "star": 2,
     "race": [
-      "nyths"
+      "nyths","ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -4535,7 +4535,7 @@
     "sun": 6,
     "star": 3,
     "race": [
-      "nyths"
+      "nyths","ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -4548,7 +4548,7 @@
     "sun": 9,
     "star": 4,
     "race": [
-      "nyths"
+      "nyths","ocean"
     ],
     "class": [],
     "cardType": "creature"
@@ -4563,5 +4563,147 @@
     "race": [],
     "class": [],
     "cardType": "instant"
+  },
+  {
+    "clan": "Taminara",
+    "name": "Vrakon",
+    "attack": 1,
+    "defense": 2,
+    "sun": 3,
+    "star": 1,
+   "race": [
+      "avianites"
+    ],
+    "class": [
+      "mage"
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Taminara",
+    "name": "Witchhood",
+    "attack": 0,
+    "defense": 2,
+    "sun": 0,
+    "star": 0,
+   "race": [
+    ],
+    "class": [
+    ],
+    "cardType": "attachment"
+  },
+{
+    "clan": "Taminara",
+    "name": "Iravena",
+    "attack": 2,
+    "defense": 5,
+    "sun": 5,
+    "star": 2,
+   "race": [
+    "avianites"
+    ],
+    "class": [
+"mage"
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Taminara",
+    "name": "Molfa",
+    "attack": 0,
+    "defense": 0,
+    "sun": 2,
+    "star": 0,
+   "race": [
+    ],
+    "class": [
+    ],
+    "cardType": "spell"
+  },
+{
+    "clan": "Taminara",
+    "name": "Marnok",
+    "attack": 6,
+    "defense": 5,
+    "sun": 6,
+    "star": 3,
+   "race": [
+    "demon", "beast"
+    ],
+    "class": [
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Haslevart",
+    "name": "Wulgratskyi",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+   "race": [
+    "undead", "ocean"
+    ],
+    "class": [
+"pirate"
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Haslevart",
+    "name": "Zamraskor",
+    "attack": 4,
+    "defense": 3,
+    "sun": 5,
+    "star": 2,
+   "race": [
+    "nyths", "ocean"
+    ],
+    "class": [
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Haslevart",
+    "name": "Marishka",
+    "attack": 2,
+    "defense": 4,
+    "sun": 4,
+    "star": 2,
+   "race": [
+    "undead", "ocean"
+    ],
+    "class": [
+"pirate"
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Haslevart",
+    "name": "Skarn",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+   "race": [
+    "undead", "ocean"
+    ],
+    "class": [
+"pirate"
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Haslevart",
+    "name": "Tihoglas",
+    "attack": 0,
+    "defense": 0,
+    "sun": 2,
+    "star": 0,
+   "race": [
+    ],
+    "class": [
+    ],
+    "cardType": "spell"
   }
 ]
