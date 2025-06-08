@@ -297,15 +297,15 @@ let zoomTimeout;
 function attachZoomEvents() {
   document.querySelectorAll('.card img').forEach(img => {
     // Десктоп
-    img.addEventListener('mousedown', (e) => {
-      zoomTimeout = setTimeout(() => {
-        zoomPreview.src = img.src;
-        zoomPreview.style.display = 'block';
-        updateZoomPosition(e);
-      }, 300);
-    });
+   img.addEventListener('mousedown', (e) => {
+  zoomTimeout = setTimeout(() => {
+    zoomPreview.src = img.src;
+    zoomPreview.style.display = 'block';
+    // позиционирование больше не нужно
+  }, 300);
+});
 
-    img.addEventListener('mousemove', updateZoomPosition);
+    // img.addEventListener('mousemove', updateZoomPosition);
 
     img.addEventListener('mouseup', () => {
       clearTimeout(zoomTimeout);
@@ -327,9 +327,9 @@ function attachZoomEvents() {
       }, 400);
     });
 
-    img.addEventListener('touchmove', (e) => {
-      updateZoomPosition(e.touches[0]);
-    });
+    // img.addEventListener('touchmove', (e) => {
+    //   updateZoomPosition(e.touches[0]);
+    // });
 
     img.addEventListener('touchend', () => {
       clearTimeout(zoomTimeout);
