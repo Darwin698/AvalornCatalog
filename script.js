@@ -144,23 +144,76 @@ function updateAvailableFilters(filteredCards) {
   });
 }
 
+// function renderClanButtons() {
+//   const container = document.getElementById("sidebar-left");
+//   container.innerHTML = "";
+//   const clans = [...new Set(allCards.map(c => c.clan))].sort();
+
+//   clans.forEach(clan => {
+//     const img = document.createElement("img");
+//     img.src = `${PATH_ICONS}${encodeURIComponent(clan)}.png`;
+//     img.alt = clan;
+//     img.title = clan;
+//     img.dataset.filterType = "clan";
+//     img.dataset.value = clan;
+//     img.onclick = () => {
+//       selectedClan = selectedClan === clan ? null : clan;
+//       updateDisplay();
+//     };
+//     container.appendChild(img);
+//   });
+// }
 function renderClanButtons() {
   const container = document.getElementById("sidebar-left");
   container.innerHTML = "";
+
+  // Добавляем строку поиска
+  const searchInput = document.createElement("input");
+  searchInput.type = "text";
+  searchInput.placeholder = "Поиск клана...";
+  searchInput.id = "clan-search";
+  searchInput.style.marginBottom = "10px";
+  searchInput.style.width = "100%";
+  searchInput.style.padding = "5px";
+  searchInput.style.borderRadius = "4px";
+  searchInput.style.border = "1px solid #888";
+  searchInput.style.background = "#1e1e1e";
+  searchInput.style.color = "white";
+
+  container.appendChild(searchInput);
+
   const clans = [...new Set(allCards.map(c => c.clan))].sort();
 
-  clans.forEach(clan => {
-    const img = document.createElement("img");
-    img.src = `${PATH_ICONS}${encodeURIComponent(clan)}.png`;
-    img.alt = clan;
-    img.title = clan;
-    img.dataset.filterType = "clan";
-    img.dataset.value = clan;
-    img.onclick = () => {
-      selectedClan = selectedClan === clan ? null : clan;
-      updateDisplay();
-    };
-    container.appendChild(img);
+  // Функция рендера списка кланов по фильтру
+  function renderFilteredClans(filter = "") {
+    // Удаляем старые иконки
+    const existingIcons = container.querySelectorAll(".clan-icon");
+    existingIcons.forEach(el => el.remove());
+
+    clans
+      .filter(clan => clan.toLowerCase().includes(filter.toLowerCase()))
+      .forEach(clan => {
+        const img = document.createElement("img");
+        img.src = `${PATH_ICONS}${encodeURIComponent(clan)}.png`;
+        img.alt = clan;
+        img.title = clan;
+        img.classList.add("clan-icon");
+        img.dataset.filterType = "clan";
+        img.dataset.value = clan;
+        img.onclick = () => {
+          selectedClan = selectedClan === clan ? null : clan;
+          updateDisplay();
+        };
+        container.appendChild(img);
+      });
+  }
+
+  // Изначально показываем всё
+  renderFilteredClans();
+
+  // Поиск по мере ввода
+  searchInput.addEventListener("input", () => {
+    renderFilteredClans(searchInput.value);
   });
 }
 
