@@ -1606,7 +1606,7 @@
   {
     "clan": "Consortium",
     "name": "Faraday",
-    "attack": 3,
+    "attack": 2,
     "defense": 4,
     "sun": 4,
     "star": 2,
@@ -3355,7 +3355,7 @@
   },
   {
     "clan": "Vanasky",
-    "name": "Janusz",
+    "name": "Janush",
     "attack": 1,
     "defense": 1,
     "sun": 2,
