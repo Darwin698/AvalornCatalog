@@ -1128,17 +1128,15 @@
   },
   {
     "clan": "Klippeblod",
-    "name": "Dalvin",
-    "attack": 1,
+    "name": "Makono",
+    "attack": 2,
     "defense": 2,
     "sun": 2,
     "star": 1,
     "race": [
-      "antherian"
+      "beast"
     ],
-    "class": [
-      "hunter"
-    ],
+    "class": [],
     "cardType": "creature"
   },
   {
@@ -2892,7 +2890,7 @@
   {
     "clan": "Mahototachi",
     "name": "Joon-su",
-    "attack": 6,
+    "attack": 5,
     "defense": 2,
     "sun": 4,
     "star": 2,
