@@ -4407,7 +4407,7 @@
     "sun": 1,
     "star": 0,
     "race": [
-      "beast"
+      "beast", "ocean"
     ],
     "class": [],
     "cardType": "creature"
