@@ -72,7 +72,7 @@ function renderAllFilters() {
   renderClassButtons();
   renderSunButtons();
   renderStarButtons();
-  renderTypeButtons();
+  //renderTypeButtons();
 }
 
 function applyFilters() {
