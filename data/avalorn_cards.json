@@ -4703,5 +4703,72 @@
     "class": [
     ],
     "cardType": "spell"
+  },
+{
+    "clan": "Jurelis",
+    "name": "Jiramel",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+   "race": [
+    "antherian", "ocean"
+    ],
+    "class": [
+"berserk"
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Jurelis",
+    "name": "Ultheran",
+    "attack": 0,
+    "defense": 4,
+    "sun": 2,
+    "star": 1,
+   "race": [
+    "antherian", "ocean"
+    ],
+    "class": [
+"warrior"
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Jurelis",
+    "name": "Oranys",
+    "attack": 2,
+    "defense": 2,
+    "sun": 4,
+    "star": 2,
+   "race": [
+    "antherian", "ocean"
+    ],
+    "class": [
+"priest"
+    ],
+    "cardType": "creature"
+  },
+{
+    "clan": "Jurelis",
+    "name": "Valdaris",
+    "attack": 3,
+    "defense": 0,
+    "sun": 1,
+    "star": 1,
+   "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+{
+    "clan": "Jurelis",
+    "name": "Tidal Wave",
+    "attack": 0,
+    "defense": 0,
+    "sun": 4,
+    "star": 0,
+   "race": [],
+    "class": [],
+    "cardType": "spell"
   }
 ]
