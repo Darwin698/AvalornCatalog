@@ -4770,5 +4770,60 @@
    "race": [],
     "class": [],
     "cardType": "spell"
+  },
+{
+    "clan": "Volkrast",
+    "name": "Flight Engine Mk",
+    "attack": 0,
+    "defense": 0,
+    "sun": 1,
+    "star": 2,
+   "race": [],
+    "class": [],
+    "cardType": "attachment"
+  },
+{
+    "clan": "Volkrast",
+    "name": "Torben",
+    "attack": 0,
+    "defense": 0,
+    "sun": 1,
+    "star": 2,
+   "race": ["avianites", "mech"],
+    "class": ["assassin"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Volkrast",
+    "name": "Hugo",
+    "attack": 3,
+    "defense": 1,
+    "sun": 3,
+    "star": 1,
+   "race": ["antherian", "mech"],
+    "class": ["scholar"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Volkrast",
+    "name": "Jori",
+    "attack": 5,
+    "defense": 3,
+    "sun": 5,
+    "star": 2,
+   "race": ["amphibis", "mech"],
+    "class": ["peasant"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Volkrast",
+    "name": "Kurtwald",
+    "attack": 8,
+    "defense": 6,
+    "sun": 9,
+    "star": 4,
+   "race": ["avianites", "mech"],
+    "class": ["hunter"],
+    "cardType": "creature"
   }
 ]
