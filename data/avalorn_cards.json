@@ -4825,5 +4825,60 @@
    "race": ["avianites", "mech"],
     "class": ["hunter"],
     "cardType": "creature"
+  },
+{
+    "clan": "Orserin",
+    "name": "Rafferty",
+    "attack": 1,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+   "race": ["amphibis"],
+    "class": ["priest"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Orserin",
+    "name": "Gilkin",
+    "attack": 1,
+    "defense": 2,
+    "sun": 2,
+    "star": 1,
+   "race": ["dragon", "ocean"],
+    "class": [],
+    "cardType": "creature"
+  },
+{
+    "clan": "Orserin",
+    "name": "Snapfin",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+   "race": ["nyths", "ocean"],
+    "class": [],
+    "cardType": "creature"
+  },
+{
+    "clan": "Orserin",
+    "name": "Coralline Clarity",
+    "attack": 0,
+    "defense": 0,
+    "sun": 0,
+    "star": 0,
+   "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+{
+    "clan": "Orserin",
+    "name": "Vorgrath",
+    "attack": 0,
+    "defense": 0,
+    "sun": 0,
+    "star": 0,
+   "race": [],
+    "class": [],
+    "cardType": "instant"
   }
 ]
