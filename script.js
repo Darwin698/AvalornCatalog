@@ -287,61 +287,108 @@ function renderStarButtons() {
    }
    }
  // Создаём элемент увеличения
+// const zoomPreview = document.createElement('img');
+// zoomPreview.id = 'zoom-preview';
+// document.body.appendChild(zoomPreview);
+
+// let zoomTimeout;
+
+// Добавляем события на каждую карту после рендера
+// function attachZoomEvents() {
+//   document.querySelectorAll('.card img').forEach(img => {
+//     // Десктоп
+//    img.addEventListener('mousedown', (e) => {
+//   zoomTimeout = setTimeout(() => {
+//     zoomPreview.src = img.src;
+//     zoomPreview.style.display = 'block';
+//     // позиционирование больше не нужно
+//   }, 300);
+// });
+
+//     // img.addEventListener('mousemove', updateZoomPosition);
+
+//     img.addEventListener('mouseup', () => {
+//       clearTimeout(zoomTimeout);
+//       zoomPreview.style.display = 'none';
+//     });
+
+//     img.addEventListener('mouseleave', () => {
+//       clearTimeout(zoomTimeout);
+//       zoomPreview.style.display = 'none';
+//     });
+
+//     // Мобильные устройства
+//     img.addEventListener('touchstart', (e) => {
+//       e.preventDefault();
+//       zoomTimeout = setTimeout(() => {
+//         zoomPreview.src = img.src;
+//         zoomPreview.style.display = 'block';
+//         updateZoomPosition(e.touches[0]);
+//       }, 400);
+//     });
+
+//     // img.addEventListener('touchmove', (e) => {
+//     //   updateZoomPosition(e.touches[0]);
+//     // });
+
+//     img.addEventListener('touchend', () => {
+//       clearTimeout(zoomTimeout);
+//       zoomPreview.style.display = 'none';
+//     });
+
+//     img.addEventListener('touchcancel', () => {
+//       clearTimeout(zoomTimeout);
+//       zoomPreview.style.display = 'none';
+//     });
+//   });
+// }
+// ==== ЗУМ КАРТЫ ПО КЛИКУ ====
+
+// создаём один общий zoom-превью
 const zoomPreview = document.createElement('img');
 zoomPreview.id = 'zoom-preview';
 document.body.appendChild(zoomPreview);
 
-let zoomTimeout;
+let zoomOpen = false;
+let currentZoomSrc = null;
 
-// Добавляем события на каждую карту после рендера
+function showZoom(src) {
+  zoomPreview.src = src;
+  zoomPreview.style.display = 'block';
+  zoomOpen = true;
+  currentZoomSrc = src;
+}
+
+function hideZoom() {
+  zoomPreview.style.display = 'none';
+  zoomOpen = false;
+  currentZoomSrc = null;
+}
+
+// ВЕШАЕМ СОБЫТИЯ НА КАРТЫ ПОСЛЕ РЕНДЕРА
 function attachZoomEvents() {
   document.querySelectorAll('.card img').forEach(img => {
-    // Десктоп
-   img.addEventListener('mousedown', (e) => {
-  zoomTimeout = setTimeout(() => {
-    zoomPreview.src = img.src;
-    zoomPreview.style.display = 'block';
-    // позиционирование больше не нужно
-  }, 300);
-});
+    img.addEventListener('click', (e) => {
+      e.stopPropagation(); // чтобы клик по карте не срабатывал как клик по документу
 
-    // img.addEventListener('mousemove', updateZoomPosition);
-
-    img.addEventListener('mouseup', () => {
-      clearTimeout(zoomTimeout);
-      zoomPreview.style.display = 'none';
-    });
-
-    img.addEventListener('mouseleave', () => {
-      clearTimeout(zoomTimeout);
-      zoomPreview.style.display = 'none';
-    });
-
-    // Мобильные устройства
-    img.addEventListener('touchstart', (e) => {
-      e.preventDefault();
-      zoomTimeout = setTimeout(() => {
-        zoomPreview.src = img.src;
-        zoomPreview.style.display = 'block';
-        updateZoomPosition(e.touches[0]);
-      }, 400);
-    });
-
-    // img.addEventListener('touchmove', (e) => {
-    //   updateZoomPosition(e.touches[0]);
-    // });
-
-    img.addEventListener('touchend', () => {
-      clearTimeout(zoomTimeout);
-      zoomPreview.style.display = 'none';
-    });
-
-    img.addEventListener('touchcancel', () => {
-      clearTimeout(zoomTimeout);
-      zoomPreview.style.display = 'none';
+      // если уже открыта эта же картинка — закрываем
+      if (zoomOpen && currentZoomSrc === img.src) {
+        hideZoom();
+      } else {
+        showZoom(img.src);
+      }
     });
   });
 }
+
+// Клик в любом месте страницы — прячет зум (если открыт)
+document.addEventListener('click', () => {
+  if (zoomOpen) {
+    hideZoom();
+  }
+});
+
+
 
 function updateZoomPosition(e) {
   const zoomWidth = 300;

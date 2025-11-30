@@ -4880,5 +4880,115 @@
    "race": [],
     "class": [],
     "cardType": "instant"
+  },
+{
+    "clan": "Rakhal",
+    "name": "Nazzur",
+    "attack": 2,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+   "race": ["antherian"],
+    "class": ["peasant"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Rakhal",
+    "name": "Sabbath",
+    "attack": 5,
+    "defense": 6,
+    "sun": 7,
+    "star": 3,
+   "race": ["avianites"],
+    "class": ["mage"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Rakhal",
+    "name": "Qunel",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 1,
+   "race": ["beast"],
+    "class": [],
+    "cardType": "creature"
+  },
+{
+    "clan": "Rakhal",
+    "name": "Kha`Mor",
+    "attack": 0,
+    "defense": 0,
+    "sun": 0,
+    "star": 0,
+   "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+{
+    "clan": "Rakhal",
+    "name": "Rift Arrow",
+    "attack": 0,
+    "defense": 0,
+    "sun": 4,
+    "star": 0,
+   "race": [],
+    "class": [],
+    "cardType": "spell"
+  },
+{
+    "clan": "Brannoch",
+    "name": "Rita",
+    "attack": 0,
+    "defense": 1,
+    "sun": 1,
+    "star": 0,
+   "race": ["antherian"],
+    "class": ["peasant"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Brannoch",
+    "name": "Hobb",
+    "attack": 2,
+    "defense": 3,
+    "sun": 3,
+    "star": 1,
+   "race": ["amphibis"],
+    "class": ["peasant"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Brannoch",
+    "name": "Gilley",
+    "attack": 1,
+    "defense": 1,
+    "sun": 2,
+    "star": 1,
+   "race": ["avianites"],
+    "class": ["peasant"],
+    "cardType": "creature"
+  },
+{
+    "clan": "Brannoch",
+    "name": "Legacy of an Unknown Hero",
+    "attack": 0,
+    "defense": 0,
+    "sun": 0,
+    "star": 0,
+   "race": [],
+    "class": [],
+    "cardType": "instant"
+  },
+{
+    "clan": "Brannoch",
+    "name": "Revolt",
+    "attack": 0,
+    "defense": 0,
+    "sun": 1,
+    "star": 0,
+   "race": [],
+    "class": [],
+    "cardType": "spell"
   }
 ]
